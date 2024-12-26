@@ -22,8 +22,7 @@ for IP in f:
     tn.write(b"config t\n")
 
     for n in range (2,50):
-        tn.write(b"vlan " + str(n).encode('ascii') + b"\n")
-        tn.write(b"name Python_VLAN_" + str(n).encode('ascii') + b"\n")
+        tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
     tn.write(b"end\n")
     tn.write(b"wr\n")
     tn.write(b"exit\n")
