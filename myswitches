@@ -1,3 +1,4 @@
+# add the IP address of your switches vlan 1 for remote access
 192.168.6.40
 192.168.6.41
 192.168.6.42
